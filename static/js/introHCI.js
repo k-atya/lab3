@@ -16,12 +16,14 @@ function initializePage() {
 		$("#testjs").text("Please wait...");
 		$(".jumbotron p").addClass("active");
 
-	});
+	//});
 
 	$(".project").click(projectClick);
 	$("#testjs").click(buttonClick);
+
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
+	});
 }
 
 function projectClick(e) {
