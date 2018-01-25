@@ -18,7 +18,7 @@ function initializePage() {
 
 	});
 
-	$("#project1").click(projectClick);
+	$(".project").click(projectClick);
 	$("#testjs").click(buttonClick);
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
